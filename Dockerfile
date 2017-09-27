@@ -1,3 +1,3 @@
-FROM centos:7
+FROM busybox
 
-CMD /bin/bash
+CMD ["echo", "Hello World"]
